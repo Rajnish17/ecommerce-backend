@@ -12,7 +12,7 @@ Now Type `npm start` to run this project
 
 # To create a new user  
 {
-    username:" " ,
+         username:" " ,
           email:"",
           password:"",
 }
@@ -21,7 +21,6 @@ Now Type `npm start` to run this project
 # To Login a user
 {
           username:" " ,
-         
           password:"",
 }
 

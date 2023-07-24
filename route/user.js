@@ -1,6 +1,8 @@
 const router =require("express").Router();
 const {verifyTokenAndAuthorization, verifyTokenAndAdmin} =require("./verifyToken");
 const User =require("../models/user");
+
+
 //UPDATE
 router.put("/:id",verifyTokenAndAuthorization,async(req,res)=>{
             if(req.body.password){
